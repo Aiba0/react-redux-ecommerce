@@ -1,0 +1,36 @@
+.footer {
+  padding: 32px 32px;
+  background: #FFFFFF;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.social {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__wp, .social__fb, .social__yt  {
+  width: 23px;
+  height: 30px;
+}
+/* .social__wp {
+  background: url("../../assets/img/whatsapp.svg") center no-repeat;
+}
+.social__fb {
+  background: url("../../assets/img/fb.svg") center no-repeat;
+}
+.social__yt {
+  background: url("../../assets/img/yt.svg") center no-repeat;
+} */

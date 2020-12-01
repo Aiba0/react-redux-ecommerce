@@ -1,0 +1,34 @@
+.search {
+    padding-left: 35px;
+    width: 250px;
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.search::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    background: url("../../assets/img/search.svg");
+    width: 17px;
+    height: 17px;
+}
+
+
+.form-control {
+    padding: 11px 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form-control::placeholder {
+    color: #B0B3BC;
+}
+
+
+

@@ -1,0 +1,23 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-list h1 {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.product-list h1 span {
+    color: #B0B3BC;
+}
+
+.product-list__content {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 670px;
+}
+
+

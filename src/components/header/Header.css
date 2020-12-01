@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    margin-right: 73px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin-right: -94px;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-list {
+  padding: 0 40px 0 67px;
+}
+.user-list__link {
+  position: relative;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
+  color: #172853;
+  background-color: transparent;
+}
+
+.user-list__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -40px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../assets/img/user.svg');
+
+
+}
+
+

@@ -1,0 +1,15 @@
+.goodsCategoryList {
+    text-align: center;
+}
+
+.goodsCategoryList h1 {
+    margin-bottom: 50px;
+}
+
+.goodsCategoryListWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
